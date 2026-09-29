@@ -1,7 +1,9 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+When I moved the camera out from the cat in the hierarchy, the camera was no longer parented to the cat and refused to follow it. Parents and children are what keep the transform changes like position and rotation tethered together, so taking it out would "break the link" between the two.
+
+[Itch page](https://rwilderm.itch.io/epic-cat-game-3-walk-stranding)
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
