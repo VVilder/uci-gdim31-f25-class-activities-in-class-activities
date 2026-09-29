@@ -5,9 +5,6 @@ When I moved the camera out from the cat in the hierarchy, the camera was no lon
 
 [Itch page](https://rwilderm.itch.io/epic-cat-game-3-walk-stranding)
 
-### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
-
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
