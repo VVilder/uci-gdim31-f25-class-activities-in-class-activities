@@ -5,6 +5,11 @@ When I moved the camera out from the cat in the hierarchy, the camera was no lon
 
 [Itch page](https://rwilderm.itch.io/epic-cat-game-3-walk-stranding)
 
+### W2
+1. r, g, and b are floats because color values use decimals since the highest value is 1.0. An int can’t hold 0.5, and a bool or string doesnt work with that number either.
+2. _bounce is an int because you can only bounce a whole number of times. Since you can’t bounce 2.5 times (or any decimal amount really), a float isn’t needed.
+3. The error after Step 4 said “; expected”, which means that its missing a semicolon at the end.
+
 ### W3
 Table #: Right by the west door? I forgot the number im sorry :(
 
