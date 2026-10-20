@@ -24,6 +24,13 @@ I think our table compared it to a taco bell. The class is the taco bell, the co
 **Activity 3**
 Every fast bounce multiplies the ball's color by 1.5, so it keeps stacking until the color is way brighter than normal.
 
+### W4
+Table #: 8
+
+1. We put Rigidbodies on the cat and the ball since they're the ones that move and need physics so the cat can kick the ball. The goal didn't need one since it doesn't move, but we checked Is Trigger on it so the ball goes through it but still counts as a goal. Also froze the cat's X and Z rotation so it wouldn't fall over.
+
+2. The Debug message was going off when the ball hit the forcefield too, not just the goal. Fixed it with an if statement that checks for the "Goal" tag.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
