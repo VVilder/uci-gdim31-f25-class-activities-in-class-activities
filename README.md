@@ -31,6 +31,11 @@ Table #: 8
 
 2. The Debug message was going off when the ball hit the forcefield too, not just the goal. Fixed it with an if statement that checks for the "Goal" tag.
 
+### W5
+1. Needs a Transform for the target the deer walks to so you can pick it in the inspector, plus a NavMeshAgent variable.
+2. Just Start() since the deer only needs to be told where to go once at the beginning. Didn’t need Update().
+3. Start() grabs the NavMeshAgent with GetComponent and then does SetDestination to the target’s position so the deer walks over there.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
