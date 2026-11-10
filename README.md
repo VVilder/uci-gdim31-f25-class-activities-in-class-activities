@@ -36,6 +36,11 @@ Table #: 8
 2. Just Start() since the deer only needs to be told where to go once at the beginning. Didn’t need Update().
 3. Start() grabs the NavMeshAgent with GetComponent and then does SetDestination to the target’s position so the deer walks over there.
 
+### W7
+1. Its a speed variable you can tweak in the inspector and the player’s transform so the bat knows where to go.
+2. ChasePlayer and StopChasing are methods to use so the BatManager can turn chasing on and off. Also Update() to move the bat.
+3. ChasePlayer sets a bool to true, StopChasing sets it to false, Update moves the bat toward the player when the bool is true.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
